@@ -1,0 +1,24 @@
+{
+  "name": "monoshop-back",
+  "version": "1.0.0",
+  "description": "This is a backend of my E-commerce website monoshop",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http"
+  },
+  "author": "Warano (carineteoi@gmail.com; +237621092130)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mariadb": "^3.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3"
+  }
+}
